@@ -1,0 +1,20 @@
+<c3p0-config>
+    <!--MySQL连接的相关配置
+    下载到本地时需要更改自己本地mysql数据的相关信息-->
+  <default-config>
+      <!--数据库驱动类-->
+     <property name="driverClass">com.mysql.jdbc.Driver</property>
+      <!--数据库访问地址-->
+     <property name="jdbcUrl">jdbc:mysql://127.0.0.1/stuapp</property>
+      <!--登录用户-->
+     <property name="user">root</property>
+      <!--密码-->
+     <property name="password">jiaojiao.667</property>
+      <!--初始化时可获取的连接数-->
+     <property name="initialPoolSize">20</property>
+      <!--连接池最大可连接数-->
+     <property name="maxPoolSize">50</property>
+
+  </default-config>
+
+</c3p0-config>
